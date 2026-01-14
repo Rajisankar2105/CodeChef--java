@@ -1,0 +1,15 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+        Scanner sc=new Scanner(System.in);
+        byte cloudsInMorning=sc.nextByte();
+        byte cloudsInEvening=sc.nextByte();
+        System.out.println(cloudsInEvening>= cloudsInMorning*3 ? "RAIN" : "DRY" );
+
+	}
+}
