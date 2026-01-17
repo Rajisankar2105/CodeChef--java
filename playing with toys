@@ -1,0 +1,15 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{ 
+	    Scanner sc=new Scanner(System.in);
+		int toys,days;
+		toys=sc.nextInt();
+		days=sc.nextInt();
+		toys-=days;
+		System.out.println(toys>=0?toys:0);
+	}
