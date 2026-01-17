@@ -1,0 +1,19 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner (System.in);
+		int r=sc.nextInt();
+		int b=sc.nextInt();
+		int p=sc.nextInt();
+		int q=sc.nextInt();
+	if(r*p>b*q)	
+	System.out.print(r*p);
+else
+System.out.print(b*q);
+	}
+}
