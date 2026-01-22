@@ -1,0 +1,19 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+			Scanner sc=new Scanner(System.in);
+		int x=sc.nextInt();
+		int y=sc.nextInt();
+		int z=sc.nextInt();
+		int option1=2*x+3*y;
+		int option2=2*z+y;
+		int option3=z+x+2*y;
+		int minCost=Math.min(option1,Math.min(option2,option3));
+		System.out.println(minCost);
+	}
+}
